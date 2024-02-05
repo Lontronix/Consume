@@ -11,6 +11,12 @@ import Observation
 @Observable
 class MealDetailViewModel {
 
+    /**
+     A note on mock data:
+
+     If this were a production app, I would add more types of mock data, like fetching a recipe with an invalid id and multiple hardcoded recipes.
+     */
+
     let mealID: String
     let isMockData: Bool
 
